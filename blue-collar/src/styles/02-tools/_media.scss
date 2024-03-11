@@ -1,0 +1,24 @@
+// @use "../01-settings/s-breakpoints";
+
+// @mixin media-min($breakpoint) {
+//   $val: map-get(s-breakpoints.$breakpoints, #{$breakpoint});
+//   @media only screen and (min-width: #{$val}px) {
+//     @content;
+//   }
+// }
+
+// @mixin media-max($breakpoint) {
+//   $val: map-get(s-breakpoints.$breakpoints, #{$breakpoint});
+//   @media only screen and (max-width: #{$val}px) {
+//     @content;
+//   }
+// }
+
+// @mixin media-min-max($minbreakpoint, $maxbreakpoint) {
+//   $minval: map-get(s-breakpoints.$breakpoints, $minbreakpoint);
+//   $maxval: map-get(s-breakpoints.$breakpoints, $maxbreakpoint);
+  
+//   @media only screen and (min-width: #{$minval}px) and (max-width: #{$maxval}px) {
+//     @content;
+//   }
+// }

@@ -1,0 +1,428 @@
+// @import "variables";
+
+// @font-face {
+//   font-family: '#{$icomoon-font-family}';
+//   src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yuxvr');
+//   src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yuxvr#iefix') format('embedded-opentype'),
+//     url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?yuxvr') format('truetype'),
+//     url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?yuxvr') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
+
+// [class^="icon-"], [class*=" icon-"] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: '#{$icomoon-font-family}' !important;
+//   speak: never;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// .icon-arrow_back {
+//   &:before {
+//     content: $icon-arrow_back; 
+//   }
+// }
+// .icon-mail_outline {
+//   &:before {
+//     content: $icon-mail_outline;     
+//     color: #fff;
+//   }
+// }
+// .icon-support_agent {
+//   &:before {
+//     content: $icon-support_agent;     
+//     color: #fff;
+//   }
+// }
+// .icon-access_time {
+//   &:before {
+//     content: $icon-access_time;     
+//     color: #fff;
+//   }
+// }
+// .icon-arrow_forward_alt {
+//   &:before {
+//     content: $icon-arrow_forward_alt; 
+//   }
+// }
+// .icon-bg-circle {
+//   &:before {
+//     content: $icon-bg-circle; 
+//   }
+// }
+// .icon-circle-remove {
+//   &:before {
+//     content: $icon-circle-remove;     
+//     color: #4ca18c;
+//   }
+// }
+// .icon-circle-add {
+//   &:before {
+//     content: $icon-circle-add;     
+//     color: #4ca18c;
+//   }
+// }
+// .icon-round_arrow {
+//   &:before {
+//     content: $icon-round_arrow; 
+//   }
+// }
+// .icon-applepay .path1 {
+//   &:before {
+//     content: $icon-applepay-path1;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-applepay .path2 {
+//   &:before {
+//     content: $icon-applepay-path2;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(0, 0, 0);
+//   }
+// }
+// .icon-applepay .path3 {
+//   &:before {
+//     content: $icon-applepay-path3;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-gpay .path1 {
+//   &:before {
+//     content: $icon-gpay-path1;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-gpay .path2 {
+//   &:before {
+//     content: $icon-gpay-path2;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(60, 64, 67);
+//   }
+// }
+// .icon-gpay .path3 {
+//   &:before {
+//     content: $icon-gpay-path3;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(66, 133, 244);
+//   }
+// }
+// .icon-gpay .path4 {
+//   &:before {
+//     content: $icon-gpay-path4;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(52, 168, 83);
+//   }
+// }
+// .icon-gpay .path5 {
+//   &:before {
+//     content: $icon-gpay-path5;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(251, 188, 4);
+//   }
+// }
+// .icon-gpay .path6 {
+//   &:before {
+//     content: $icon-gpay-path6;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(234, 67, 53);
+//   }
+// }
+// .icon-gpay .path7 {
+//   &:before {
+//     content: $icon-gpay-path7;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-idea .path1 {
+//   &:before {
+//     content: $icon-idea-path1;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-idea .path2 {
+//   &:before {
+//     content: $icon-idea-path2;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(0, 0, 0);
+//   }
+// }
+// .icon-idea .path3 {
+//   &:before {
+//     content: $icon-idea-path3;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(213, 0, 114);
+//   }
+// }
+// .icon-idea .path4 {
+//   &:before {
+//     content: $icon-idea-path4;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-mastercard .path1 {
+//   &:before {
+//     content: $icon-mastercard-path1;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-mastercard .path2 {
+//   &:before {
+//     content: $icon-mastercard-path2;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(237, 0, 6);
+//   }
+// }
+// .icon-mastercard .path3 {
+//   &:before {
+//     content: $icon-mastercard-path3;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 160, 0);
+//   }
+// }
+// .icon-mastercard .path4 {
+//   &:before {
+//     content: $icon-mastercard-path4;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(255, 94, 0);
+//   }
+// }
+// .icon-mastercard .path5 {
+//   &:before {
+//     content: $icon-mastercard-path5;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-paypal .path1 {
+//   &:before {
+//     content: $icon-paypal-path1;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-paypal .path2 {
+//   &:before {
+//     content: $icon-paypal-path2;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(40, 53, 106);
+//   }
+// }
+// .icon-paypal .path3 {
+//   &:before {
+//     content: $icon-paypal-path3;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(41, 143, 194);
+//   }
+// }
+// .icon-paypal .path4 {
+//   &:before {
+//     content: $icon-paypal-path4;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(34, 40, 79);
+//   }
+// }
+// .icon-paypal .path5 {
+//   &:before {
+//     content: $icon-paypal-path5;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(40, 53, 106);
+//   }
+// }
+// .icon-paypal .path6 {
+//   &:before {
+//     content: $icon-paypal-path6;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-visa .path1 {
+//   &:before {
+//     content: $icon-visa-path1;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-visa .path2 {
+//   &:before {
+//     content: $icon-visa-path2;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(23, 43, 133);
+//   }
+// }
+// .icon-visa .path3 {
+//   &:before {
+//     content: $icon-visa-path3;  
+//     margin-left: -1.4169921875em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-klarna .path1 {
+//   &:before {
+//     content: $icon-klarna-path1;  
+//     color: rgb(254, 180, 199);
+//   }
+// }
+// .icon-klarna .path2 {
+//   &:before {
+//     content: $icon-klarna-path2;  
+//     margin-left: -1.4345703125em;  
+//     color: rgb(23, 18, 15);
+//   }
+// }
+// .icon-klarna .path3 {
+//   &:before {
+//     content: $icon-klarna-path3;  
+//     margin-left: -1.4345703125em;  
+//     color: rgb(249, 247, 246);
+//   }
+// }
+// .icon-linkedin {
+//   &:before {
+//     content: $icon-linkedin; 
+//   }
+// }
+// .icon-instagram {
+//   &:before {
+//     content: $icon-instagram; 
+//   }
+// }
+// .icon-facebook {
+//   &:before {
+//     content: $icon-facebook; 
+//   }
+// }
+// .icon-bin {
+//   &:before {
+//     content: $icon-bin;     
+//     color: #606b81;
+//   }
+// }
+// .icon-twitter {
+//   &:before {
+//     content: $icon-twitter;     
+//     color: #fff;
+//   }
+// }
+// .icon-recycle {
+//   &:before {
+//     content: $icon-recycle; 
+//   }
+// }
+// .icon-pot {
+//   &:before {
+//     content: $icon-pot; 
+//   }
+// }
+// .icon-alert_error {
+//   &:before {
+//     content: $icon-alert_error; 
+//   }
+// }
+// .icon-search {
+//   &:before {
+//     content: $icon-search; 
+//   }
+// }
+// .icon-play_arrow {
+//   &:before {
+//     content: $icon-play_arrow; 
+//   }
+// }
+// .icon-check {
+//   &:before {
+//     content: $icon-check; 
+//   }
+// }
+// .icon-arrow_back_ios {
+//   &:before {
+//     content: $icon-arrow_back_ios; 
+//   }
+// }
+// .icon-arrow_forward_ios {
+//   &:before {
+//     content: $icon-arrow_forward_ios; 
+//   }
+// }
+// .icon-add {
+//   &:before {
+//     content: $icon-add; 
+//   }
+// }
+// .icon-close {
+//   &:before {
+//     content: $icon-close; 
+//   }
+// }
+// .icon-star {
+//   &:before {
+//     content: $icon-star; 
+//   }
+// }
+// .icon-pin {
+//   &:before {
+//     content: $icon-pin;     
+//     color: #fff;
+//   }
+// }
+// .icon-shopping_cart {
+//   &:before {
+//     content: $icon-shopping_cart; 
+//   }
+// }
+// .icon-remove {
+//   &:before {
+//     content: $icon-remove; 
+//   }
+// }
+// .icon-suitcase {
+//   &:before {
+//     content: $icon-suitcase; 
+//   }
+// }
+// .icon-phone {
+//   &:before {
+//     content: $icon-phone; 
+//   }
+// }
+// .icon-mail {
+//   &:before {
+//     content: $icon-mail; 
+//   }
+// }
+// .icon-location {
+//   &:before {
+//     content: $icon-location;     
+//     color: #d31f14;
+//   }
+// }
+// .icon-arrow_forward {
+//   &:before {
+//     content: $icon-arrow_forward; 
+//   }
+// }
+// .icon-info {
+//   &:before {
+//     content: $icon-info; 
+//   }
+// }
+// .icon-arrow_down_solid {
+//   &:before {
+//     content: $icon-arrow_down_solid; 
+//   }
+// }
+// .icon-arrow_down {
+//   &:before {
+//     content: $icon-arrow_down; 
+//   }
+// }
+
